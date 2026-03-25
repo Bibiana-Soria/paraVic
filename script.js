@@ -33,6 +33,7 @@ function mostrarMensaje(){
         "Y como dijeron los Perdidos: Don't you ever tell yourself that you're not enough",
         "Nunca olvides lo especial que eres para mí",
         "You showed me a power that is strong enough to bring sun to the darkest days",
+        "Mis días son mejores gracias a tí",
         ];
 
     const indice = Math.floor(Math.random()*mensajes.length);
