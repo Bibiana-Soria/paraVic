@@ -34,6 +34,11 @@ function mostrarMensaje(){
         "Nunca olvides lo especial que eres para mí",
         "You showed me a power that is strong enough to bring sun to the darkest days",
         "Mis días son mejores gracias a tí",
+        "Eres mi persona favorita",
+        "Vamos mis amores, vamoss",
+        "Me importas",
+        "El mundo es mejor contigo",
+        "Te he visto enfrente sonriente, valiente, te quiero tanto 🎶"
         ];
 
     const indice = Math.floor(Math.random()*mensajes.length);
