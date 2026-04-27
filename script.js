@@ -1,3 +1,5 @@
+let mensajesRestantes = [];
+
 function mostrarMensaje(){
 
     const mensajes = [
@@ -39,12 +41,20 @@ function mostrarMensaje(){
         "Me importas",
         "El mundo es mejor contigo",
         "Te he visto enfrente sonriente, valiente, te quiero tanto 🎶"
-        ];
+    ];
 
-    const indice = Math.floor(Math.random()*mensajes.length);
+    if (mensajesRestantes.length === 0) {
+        mensajesRestantes = [...mensajes]; 
+    }
 
-    document.getElementById("mensaje").textContent = mensajes[indice];
+    const indice = Math.floor(Math.random() * mensajesRestantes.length);
 
+    const mensaje = mensajesRestantes[indice];
+
+    mensajesRestantes.splice(indice, 1);
+
+
+    document.getElementById("mensaje").textContent = mensaje;
     document.getElementById("modal").style.display = "flex";
 }
 
