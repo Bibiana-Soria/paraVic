@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(135deg,#0f8efd,#bce0ff);
+    background: linear-gradient(135deg,#0620a1,#c7bcff);
     height:100vh;
     display:flex;
     justify-content:center;
@@ -20,7 +20,7 @@ body{
     font-size:16px;
     border:none;
     border-radius:10px;
-    background:#1e81f3;
+    background:#0620a1;
     color:white;
     cursor:pointer;
     transition:0.3s;
@@ -28,23 +28,28 @@ body{
 
 .boton:hover{
     transform:scale(1.1);
-    background:#0f5ed7;
+    background:#3d7dde;
 }
 
 .texto{
     margin: 0;
     font-size:20px;
-    color:#0b3c6f;
+    color:#ffffff;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .texto_2{
     margin: 0;
     font-size:16px;
-    color:#2f5f8f;
+    color:#d2d3d3;
     font-family: 'Courier New', Courier, monospace;
 }
-
+.texto_3{
+    margin: 0;
+    font-size:16px;
+    color:#323232;
+    font-family: 'Courier New', Courier, monospace;
+}
 /* Modal */
 
 .modal{
